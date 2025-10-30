@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY")
 
 TEMPLATE_LOGIN = """
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Login</title>
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Inicio de sesión</title>
 <style>
 body { font-family: Arial; background: #f6f7fb; display: flex; justify-content: center; align-items: center; height: 100vh; }
 form { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
